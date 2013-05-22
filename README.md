@@ -35,9 +35,9 @@ Getting Started
   `$ bundle exec guard`
 
 6. Link your files in your frontend view files (HTML). By default, these are the files you'll be referencing:
-    * `assets/css/vendor.css`
-    * `assets/css/style.css`
-    * `assets/js/vendor.min.js`
-    * `assets/js/main.min.js`
+  * `assets/css/vendor.css`
+  * `assets/css/style.css`
+  * `assets/js/vendor.min.js`
+  * `assets/js/main.min.js`
 
 7. That's it!
