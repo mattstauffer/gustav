@@ -22,7 +22,6 @@ Getting Started
    `$ rm -rf .git`
 
 4. Customize the files to your liking. 
-
   * Add in any third-party javascripts into `source/vendors/js` and add any third-party css into `source/vendors/css`
     * **Note:** Any vendor images for JS or CSS should go in `source/vendors/img`, and you'll need to update the files to refer to them from within the vendor source files as `../img`. Vendor JS will end up in `assets/js`; vendor CSS will end up in `assets/css`; and vendor images will end up in `vendor/img`.
   * Add any custom javascript libraries to `source/js/libs`
@@ -31,13 +30,13 @@ Getting Started
 
 5. *(optional)* Set up a [livereload extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) in your browser.
 
-5. Run guard, and it's now watching your source directories, outputting new files into your assets directories, and pinging your livereload browser extension with each change.  
+6. Run guard, and it's now watching your source directories, outputting new files into your assets directories, and pinging your livereload browser extension with each change.  
   `$ bundle exec guard`
 
-6. Link your files in your frontend view files (HTML). By default, these are the files you'll be referencing:
+7. Link your files in your frontend view files (HTML). By default, these are the files you'll be referencing:
   * `assets/css/vendor.css`
   * `assets/css/style.css`
   * `assets/js/vendor.min.js`
   * `assets/js/main.min.js`
 
-7. That's it!
+8. That's it!
