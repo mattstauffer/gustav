@@ -23,11 +23,11 @@ Getting Started
 
 4. Customize the files to your liking. 
 
-    * Add in any third-party javascripts into `source/vendors/js` and add any third-party css into `source/vendors/css`
-  	    * **Note:** Any vendor images for JS or CSS should go in `source/vendors/img`, and you'll need to update the files to refer to them from within the vendor source files as `../img`. Vendor JS will end up in `assets/js`; vendor CSS will end up in `assets/css`; and vendor images will end up in `vendor/img`.
-  	* Add any custom javascript libraries to `source/js/libs`
-    * *(optional)* Update the file structure of source/sass to your preferred Sass structure. The provided structure and partials are just a suggestion.
-    * *(optional)* If you want to change the layout or names of any of the generated files, or the source directory structure, edit `config/assets.yml` and `config/compass.rb`.
+  * Add in any third-party javascripts into `source/vendors/js` and add any third-party css into `source/vendors/css`
+    * **Note:** Any vendor images for JS or CSS should go in `source/vendors/img`, and you'll need to update the files to refer to them from within the vendor source files as `../img`. Vendor JS will end up in `assets/js`; vendor CSS will end up in `assets/css`; and vendor images will end up in `vendor/img`.
+  * Add any custom javascript libraries to `source/js/libs`
+  * *(optional)* Update the file structure of source/sass to your preferred Sass structure. The provided structure and partials are just a suggestion.
+  * *(optional)* If you want to change the layout or names of any of the generated files, or the source directory structure, edit `config/assets.yml` and `config/compass.rb`.
 
 5. *(optional)* Set up a [livereload extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-) in your browser.
 
