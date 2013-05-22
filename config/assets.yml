@@ -1,0 +1,14 @@
+gzip_assets: off
+javascript_compressor: uglifier
+
+javascripts:
+  js/vendor.min:
+    - source/vendor/js/*.js
+
+  js/main.min:
+    - source/js/libs/*.js
+    - source/js/main.original.js
+
+stylesheets:
+  css/vendor:
+    - source/vendor/css/*.css
