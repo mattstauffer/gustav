@@ -1,7 +1,7 @@
 Gustav
 ======
 
-A backend-agnostic opinionated front-end development stack inspired by the Rails asset pipeline.
+An opinionated, backend-agnostic, front-end development stack inspired by the Rails asset pipeline.
 
 Features
 --------
