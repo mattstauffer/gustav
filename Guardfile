@@ -19,11 +19,3 @@ end
 guard :compass do
   watch(/^source\/sass\/(.*)\.s[ac]ss/)
 end
-
-# @todo: This isn't currently working. Fix.
-guard :copy,
-	:from => "./source/vendor/img",
-	:to => "./assets/img",
-	:delete => true do
-	watch(/.*/)
-end
