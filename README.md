@@ -26,7 +26,7 @@ Getting Started
 
 4. Customize the files to your liking
   * Add in any third-party javascripts into `source/vendors/js` and add any third-party css into `source/vendors/css`
-      * **Note:** Any vendor images for JS or CSS should go in `source/vendors/img`, and you'll need to update the js/css files targetting them to refer to them in `../img/`. Vendor JS will end up in `assets/js`; vendor CSS will end up in `assets/css`; and vendor images will end up in `vendor/img`.
+      * **Note:** All images for the site, whether custom or for JS or CSS should go in `assets/img` (or subdirectories therein), and you'll need to update the js/css files targetting them to refer to them in `../img/`. Vendor JS will end up in `assets/js`, and vendor CSS will end up in `assets/css`.
   * Add any custom javascript libraries to `source/js/libs`
   * *(optional)* Update the file structure of source/sass to your preferred Sass structure. The provided structure and partials are just a suggestion.
   * *(optional)* If you want to change the layout or names of any of the generated files, or the source directory structure, edit `config/assets.yml` and `config/compass.rb`.
