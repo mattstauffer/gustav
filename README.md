@@ -12,6 +12,7 @@ Features
 * Gemfile to allow use of [Bundler](http://gembundler.com/v1.3/gemfile.html) to manage Gems
 * Guardfile to use [Guard](https://github.com/guard/guard) for livereload-style watching
 * [Jammit](https://github.com/documentcloud/jammit) for simple, YAML-based asset management
+* Default Sass structured using [SMACSS](http://smacss.com/)
 
 Getting Started
 ---------------
